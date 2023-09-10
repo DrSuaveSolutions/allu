@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/184be9ab39.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="Header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo.png" class="Logo">
+                <ul>
+                    <li>
+                        <a href="#Header"> Home </a>
+                        <a href="#about"> About me </a>
+                        <a href="#contact"> Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="headertext">
+                <h1>I'm <span>Allu</span>,</h1> <br>
+                <p>I'm a UI/UX Designer,<br>and a Front-End Developer.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="images/2.png" alt="Profile Image"></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><br> During my journey, I've embraced diverse roles that have shaped my skills and perspective. As a
+                        web developer intern at BigMedia Digital Corporation, I delved into the world of coding, crafting
+                        digital experiences that merge functionality and aesthetics. Simultaneously, my role as a video
+                        editor fueled my creativity, allowing me to visually narrate stories that resonate. Beyond the tech
+                        realm, my stint as a call center agent at iQor honed my communication prowess and empathy,
+                        addressing concerns with patience and precision. This blend of technical finesse, creative flair,
+                        and customer-centricity defines my multifaceted approach to challenges, making me a versatile
+                        asset in any endeavor. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX Design </span><br> - Designing Web/App Interfaces using Figma.</li>
+                            <li><span>Web Development </span><br> - Web/App Development using HTML, CSS, and JavaScript.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Developer Intern</span><br> - Web Development for BigMedia Digital Corporation.
+                            </li>
+                            <li><span>Video Editor Intern</span><br> - Editing videos for BigMedia Digital Corporation.
+                            </li>
+                            <li><span>Call Center agent</span><br> - Handling credit cards of customers at iQor.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Information & Communications Technology </span><br> - Majoring in Programming that focuses
+                                on Web Development.</li>
+                            <li><span>TESDA CSS NC II </span><br> - Focuses on maintaining and troubleshooting computer
+                                systems.</li>
+                            <li><span>Google UI/UX Design Bootcamp </span><br> - Creating high-fidelity designs and
+                                prototypes in Figma.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-eye"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Immerse yourself in the world of UI/UX design, where I transform ideas into captivating digital
+                        experiences. With a keen understanding of user psychology, I create intuitive interfaces that
+                        resonate. From wireframing to high-fidelity designs.</p>
+                    <a
+                        href="https://flatironschool.com/blog/what-is-ux-ui-design/">Learn
+                        more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Embark on a digital journey with my web development expertise. I craft dynamic, user-centric
+                        websites, harmonizing cutting-edge design with seamless functionality. Responsive layouts ensure
+                        flawless performance across devices.</p>
+                    <a href="https://brainstation.io/career-guides/what-is-web-development">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/1.png" alt="Portfolio Image 1">
+                    <div class="layer">
+                        <h3> UI/UX Mobile Design </h3>
+                        <p>Crafting captivating digital experiences for a delightful cafe journey through intuitive
+                            UI/UX
+                            design.</p>
+                        <a
+                            href="https://www.figma.com/file/VtkxaehZktAVRsQdnrgcd8/Untitled?type=design&node-id=97-665&mode=design&t=dCxgWT7kwUQsZs98-0"><i class="fas fa-eye"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Website.png" alt="Portfolio Image 2">
+                    <div class="layer">
+                        <h3> E-Learning Website </h3>
+                        <p>Amidst the pandemic, I've made my school an e-learning website, fostering education
+                            continuity
+                            and growth.</p>
+                        <a href="https://papaya-tapioca-616b52.netlify.app/"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><br>Billiondollarceo25@gmail.com</p>
+                    <p><br>+63 976-322-5368</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/urTypicalAllu"><i class="fab fa-facebook-square"></i> </a>
+                        <a href="https://www.linkedin.com/in/typicalallu/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Resume 2023.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg" style="display: none;">Sent Successfully!</span>
+
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2023 Made by Emmanuel Allucard C. Guela</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby0jVQpPyanHUO1uPKbmZRYSRiSUt5WJsBOHhmGn73HloL4CQ9SUJzFQtsDNyUJjZip/exec';
+  const form = document.forms['submit-to-google-sheet'];
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => {
+        msg.style.display = "block"; // Show the message
+        form.reset();
+        setTimeout(function () {
+          msg.style.display = "none"; // Hide the message after a delay
+        }, 5000);
+      })
+      .catch(error => console.error('Error!', error.message));
+  });
+    </script>
+
+</body>
+
+</html>
